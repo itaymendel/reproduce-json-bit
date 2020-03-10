@@ -1,0 +1,23 @@
+{
+  "name": "track-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bit": {
+    "env": {},
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm",
+    "resolveModules": {
+      "aliases": {
+        "@config": "./config/buildResult.json",
+        "@": "./src"
+      }
+    }
+  }
+}
